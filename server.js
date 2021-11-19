@@ -27,7 +27,7 @@ app.use(express.json());
 
 require("./routes/auth.routes")(app);
 require("./routes/user.routes")(app);
-app.listen(process.env.PORT || 8080, () => {
+app.listen(process.env.PORT || 80, () => {
   console.log(`listening in port ${process.env.PORT}`);
 });
 

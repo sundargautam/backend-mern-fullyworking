@@ -2,7 +2,7 @@ const express = require("express");
 const dotenv = require("dotenv").config();
 const cors = require("cors");
 var corsOptions = {
-  origin: "https://login-system-authentication-frontend.vercel.app/login",
+  origin: "https://login-system-authentication-frontend.vercel.app",
 };
 const app = express();
 const db = require("./model/index");
